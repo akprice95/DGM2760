@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/* CSS Document */
+/* CSS Reset */
+body, p, h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0
+
+}
+
+header{
+	background-image: url(images/healthiest-breakfast-foods_0.jpg);
+
+	height: 200px;
+	text-align: left;
+    }
+
+h1{
+	color: white;
+}
+
+h2{
+	color: white;
+}
+
+body{
+	margin-left: 5%;
+}
+
+footer{
+    background-color: rgb(1,255,255);
+    text-align: center
+        
+    
+}
