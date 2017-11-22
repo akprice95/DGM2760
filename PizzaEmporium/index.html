@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Pizza Pizza</title>
+ <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+
+
+</head>
+
+<header>
+		<h1 id="companyName"></h1>
+
+		<h2 id="quote"></h2>
+		
+	</header>
+<body onload="displayArray()">
+	
+
+
+	<main>
+
+
+
+		
+	</main>
+		
+
+		<div id="title" ></div>
+		<div id="learned" ></div>
+
+		<ul>
+			<li>Create a literal object with properties and methods</li>
+			<li>Set the properties in a object</li>
+			<li>Access the properties in an object</li>
+			<li>Access the methods of an object</li>
+			<li>Use mah operators</li>
+			<li>Use string concatenation</li>
+			<li>Use getElemntById and innerHTML to dynamically change text on the screen</li>
+			
+
+		</ul>
+
+		<p id="userName"></p>
+		
+		<div id="crustOpt" ></div>
+
+		<button type="button"  onclick = "pizzalist.crust='thin'" id="thinCrust">Thin Crust</button>
+		<br>
+		<button type="button" onclick = "pizzalist.crust='thin'" id="thick">Thick Crust</button>
+
+
+		<div id="toppingOpt" ></div>
+
+		<button type="button" onclick="pizzalist.toppingType='peperoni'" id="sausage">Sausage</button>
+		<br>
+		<button type="button" onclick="pizzalist.toppingType='sausage'" id="peperoni">Peperoni</button>
+
+
+		<div id="sizeOpt" ></div>
+
+		<button type="button" onclick="pizzalist.sizeType='small'"  id="smallBttn">Small</button>
+		<br>
+		<button type="button" onclick="pizzalist.sizeType='large'" id="largeBttn">Large</button>
+
+
+		<div id="timeToEat" ></div>
+
+		<button type="button" onclick="pizzalist.buildPizzaNow()" id="buildPizza">Build Pizza</button>
+
+
+		<div id="shoppingLst" ></div>
+
+		<button type="button" onclick="pizzalist.shoppingLst()" id="buildPizza" id="shoppingLstBttn">Shopping List</button>
+
+
+		<div id="userMessage" ></div>
+		<br>
+		<div id="displayPizza" ></div>
+
+
+	</main>
+
+
+	<footer>
+		<div id="dateLast"></div>
+			 <div class="keepOpen"></div> 
+			 <p id="DLM"></p>
+        &copy;2017 &bull; DGM2760 &bull; Built by Aaron P.
+    </footer>
+</body>
+<script type="text/javascript" src="js/main.js"></script>
+</html>

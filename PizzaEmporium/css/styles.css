@@ -11,7 +11,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 header{
     background-color: grey;
     padding: .5rem 2%;
-    background-image: url(images/MickyMouse.jpg);
+    background-image: url(images/Pizza.webp);
     background-size: 2200px;
 
 	height: 200px;
@@ -21,19 +21,19 @@ header{
 }
 
 h1{
-	color: white;
+	color: black;
 	font-size: 75px;
 }
 
 h2{
-	color: white;
+	color: black;
 	font-size: 35px;
 }
 
 
 
 footer{
-    background-color: green;
+    background-color: orange;
     text-align: center;     
     
 }
@@ -51,18 +51,31 @@ p {
     font-size: 45px;
     color:brown;
 }
-#instructions {
+#crustOpt {
     font-size: 35px;
     color: brown;
 }
-#adj {
+#toppingOpt {
     font-size: 35px;
     color: brown;
 }
-#vrbs {
+#sizeOpt {
     font-size: 35px;
     color: brown;
 }
+#timeToEat {
+    font-size: 35px;
+    color: brown;
+}
+#userMessage {
+    font-size: 35px;
+    color: brown;
+}
+#shoppingLst {
+    font-size: 35px;
+    color: brown;
+}
+
 #feedback{
   color: green;
   font-size: 25px;
