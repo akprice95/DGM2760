@@ -21,7 +21,7 @@ document.getElementById("userMessage").innerHTML = "What do you need?";
 
 var pizzalist ={
 	crust: "thin",
-	toppingType: "sausage",
+	toppingType: "peperoni",
 	sizeType: "large",
 
 //for the Pizza Build Button
