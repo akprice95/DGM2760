@@ -1,0 +1,199 @@
+@charset "UTF-8";
+/* CSS Document */
+/* CSS Reset */
+body, p, h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0
+
+}
+
+
+header{
+    background-color: grey;
+    padding: .5rem 2%;
+    background-image: url(images/Map.jpg);
+    background-size: 2200px;
+
+	height: 200px;
+	text-align: left;
+    background-repeat: no-repeat;
+  
+}
+
+h1{
+	color: white;
+	font-size: 75px;
+}
+
+h2{
+	color: white;
+	font-size: 35px;
+}
+
+
+
+footer{
+    background-image: url(images/Map.jpg);
+    text-align: center;
+    color: white;   
+    
+}
+
+p {
+	font-size: 35px;
+}
+
+#learned{
+    color: blue;
+    font-size: 35px;
+}
+
+#title{
+    font-size: 45px;
+    color:black;
+}
+
+#userMessage {
+    font-size: 35px;
+    color: black;
+}
+#shoppingLst {
+    font-size: 35px;
+    color: black;
+}
+
+#result{
+  color: black;
+  font-size: 25px;
+}
+
+div{
+    padding-left: .5rem;
+
+}
+
+ul {
+
+  list-style-type: none;
+
+}
+
+
+ul li:before {
+
+  content: '';
+
+  display: inline-block;
+
+  height: 10px;
+
+  width: 10px;
+
+   background-size: 10px;
+
+  background-image: url("http://www.ajaydubedi.com/wp-content/uploads/2015/05/Check_mark.png");
+
+  background-repeat: no-repeat;
+
+  margin-right: 5px;
+
+}
+
+img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+
+
+#starWars {
+    background-color: brown; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+     background-image: url(images/starWars.jpg);
+        padding: 8px;
+    margin: 8px;
+}
+
+#starWars:hover {
+
+  box-shadow: 0 5px #666;
+}
+
+
+#harryPotter {
+    background-color: brown; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+     background-image: url(images/harryPotter.jpg);
+    padding: 8px;
+    margin: 8px;
+}
+
+#harryPotter:hover {
+
+  box-shadow: 0 5px #666;
+}
+
+
+#pirates {
+    background-color: brown; /* Green */
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+     background-image: url(images/sand.jpg);
+    padding: 8px;
+    margin: 8px;
+}
+
+#pirates:hover {
+
+  box-shadow: 0 5px #666;
+}
+
+#lordOfRings {
+    background-color: brown; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+     background-image: url(images/ring.jpg);
+    padding: 8px;
+    margin: 8px;
+}
+
+#lordOfRings:hover {
+
+  box-shadow: 0 5px #666;
+}
+
+#startQuiz {
+    background-color: blue; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 8px;
+    margin: 8px;
+    
+}
+
+#startQuiz:hover {
+
+  box-shadow: 0 5px #666;
+}
