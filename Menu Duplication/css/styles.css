@@ -133,3 +133,16 @@ footer p {
 .keepOpen{
 	clear:both;
 }
+
+@media only screen and (min-width:801px) {
+#smallNavArea{
+	display: none;
+}
+      }
+
+@media only screen and (max-width: 800px){
+#primaryNavigation{
+	display: none;
+}
+
+}
