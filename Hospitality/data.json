@@ -1,0 +1,22 @@
+[   {
+    "name":"Outta This World",
+    "description":"Ever want to escape this stressful world we live on and just be able to sit back and relax while stairing into the great Deep space? With this vacation package you will feel like you are a martian...we gaurentee it",
+    "cost":{"weekend":"$500.00", "weekday":"$499.00"},
+    "details":["Big Screen TV","Free WIFI","Window into Space","Hot Tub", "Futuristic Beverages"],
+    "photo":"images/placeholder.jpg"
+    },
+    {
+    "name":"Sea Package",
+    "description":"Under the sea.....Under the sea..... Darling it's better down where it's wetter take it from me up on the shore they work all day Out in the sun they slave away while we devotin' full time to floatin'..... Under the sea",
+    "cost":{"weekend":"$1000.00", "weekday":"$859.99"},
+    "details":["Wine and Roses","Jetted Tub","King Sized Bed", "View of the exotic sea"],
+    "photo":"images/escape.jpg"
+    },
+    {
+    "name":"Harry Hostel",
+    "description":"Ever want to travel but you broke? Come and try our hostel package where you sleep with strangers and save a ton of money. The Beds are located near our lobby so the lights never go out, but for the price..who can complain?",
+    "cost":{"weekend":"$10.00", "weekday":"$5.00"},
+    "details":["built in fan","A smaller sized twin bed","A locker","Pillow & Blanket"],
+    "photo":"images/hostel.jpg"
+    }
+]
